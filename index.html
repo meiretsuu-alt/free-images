@@ -2,10 +2,154 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>無料画像</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>無料画像・イラスト素材</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background: white;
+      padding: 45px 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 0;
+      color: #666;
+    }
+
+    nav {
+      background: white;
+      padding: 16px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    nav a {
+      margin: 0 12px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      padding: 30px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .categories {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .category {
+      flex: 1;
+      min-width: 200px;
+      padding: 25px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      background: #fafafa;
+    }
+
+    .category:hover {
+      background: #eee;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>無料画像</h1>
-  <p>自分で撮影した写真を無料で公開しています。</p>
+
+<header>
+  <h1>無料画像・イラスト素材</h1>
+  <p>写真やイラストを無料で公開しています。</p>
+</header>
+
+<nav>
+  <a href="#materials">素材を探す</a>
+  <a href="#about">このサイトについて</a>
+  <a href="#terms">利用について</a>
+</nav>
+
+<main>
+
+  <section id="materials">
+    <h2>素材を探す</h2>
+
+    <div class="categories">
+      <a class="category" href="#">
+        <h3>写真</h3>
+        <p>無料で利用できる写真素材</p>
+      </a>
+
+      <a class="category" href="#">
+        <h3>イラスト</h3>
+        <p>無料で利用できるイラスト素材</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>このサイトについて</h2>
+    <p>
+      このサイトでは、管理者が撮影・制作した画像やイラストを
+      無料素材として公開しています。
+    </p>
+  </section>
+
+  <section id="terms">
+    <h2>利用について</h2>
+    <p>
+      素材ごとの利用条件については、各素材のページをご確認ください。
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  © 無料画像・イラスト素材
+</footer>
+
 </body>
 </html>
